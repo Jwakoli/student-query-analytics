@@ -39,7 +39,7 @@ The Student Query Analytics System helps organise student queries and provides a
 1. Clone this repository:
 
    ```bash
-   git clone YOUR_GITHUB_REPOSITORY_URL
+   git clone https://github.com/Jwakoli/student-query-analytics
    ```
 
 2. Navigate into the project directory:
