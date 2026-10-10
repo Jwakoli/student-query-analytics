@@ -112,3 +112,71 @@ Computer Science student interested in data analytics and technology.
 
 ![Student Query Analytics Dashboard](screenshots/analytics-dashboard.png)
 
+## 🚀 Getting Started
+
+Follow these steps to run the Student Query Analytics System on your computer.
+
+### Prerequisites
+
+- Python 3.10 or later
+- Git
+- A web browser
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Jwakoli/student-query-analytics.git
+cd student-query-analytics
+```
+
+### 2. Create and activate a virtual environment
+
+**Windows PowerShell:**
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+If PowerShell blocks activation, use Command Prompt instead:
+
+```cmd
+.venv\Scripts\activate.bat
+```
+
+### 3. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Generate demonstration data
+
+```bash
+python seed_data.py
+```
+
+This creates 30 fictional student-query records for exploring the dashboard. It replaces previously generated sample records while preserving other records in the local database.
+
+### 5. Launch the application
+
+```bash
+streamlit run app.py
+```
+
+Streamlit will provide a local URL to open in your browser.
+
+## 🧪 Sample Data
+
+The demonstration records are fictional and intended for testing the application's filters, charts, status management, and analytics. They are generated locally and are not included in the GitHub repository's database.
+
+## 🔒 Data and Privacy
+
+The application uses a local SQLite database. Do not enter confidential student information into a public demonstration or share a database containing personal information.
+
+## 👨‍💻 Author
+
+**Jesse Wanjala Wakoli**
+
+- GitHub: [Jwakoli](https://github.com/Jwakoli)
+- LinkedIn: [Jesse Wakoli](https://www.linkedin.com/in/jesse-wakoli-a63058380/)
