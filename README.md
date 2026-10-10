@@ -105,3 +105,10 @@ student-query-analytics/
 Jesse Wanjala Wakoli
 
 Computer Science student interested in data analytics and technology.
+
+## 📸 Application Screenshots
+
+### Analytics Dashboard
+
+![Student Query Analytics Dashboard](screenshots/analytics-dashboard.png)
+
